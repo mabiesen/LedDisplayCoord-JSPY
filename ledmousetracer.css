@@ -1,0 +1,106 @@
+body{
+	width: 100%;
+	background-color: LightBlue;
+}
+
+.title{
+	width: 100%;
+	font-size: 4em;
+	margin-bottom: 0.2em;
+}
+
+.ul{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 0.05em;
+}
+
+.maincontainer{
+	background-color: Tan;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	width: fit-content;
+	width: -wekit-fit-content;
+	width: -moz-fit-content;
+	margin: auto;
+	overflow: auto;
+}
+
+.boxone{
+	position: relative;
+	float: left;
+	width: fit-content;
+	width: -wekit-fit-content;
+	width: -moz-fit-content;
+	overflow: auto;
+	background-color: white;
+	margin: 1em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+}
+
+.boxtwo{
+	float: left;
+	width: 17em;
+	height: 15em;
+	background-color: white;
+	margin-top: 1em;
+	margin-right: 1em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	overflow: scroll;
+}
+
+.boxthree{
+	float: left;
+	width: 17em;
+	height: 14em;
+	background-color: white;
+	margin-top: 1em;
+	margin-right: 1em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+}
+
+button{
+	height: 1.8em;
+	width: 49%;
+	font-size: 1.5em;
+	margin: auto;
+}
+
+td {
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	width: 1.25em;
+	height: 1.25em;
+	padding: 0;
+}
+
+.black{
+	background-color: Black;
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+
+.footer{
+	border-style: solid;
+	border-color: black;
+	border-width: 0.1em;
+	height: 6em;
+	margin-top: 0.9em;
+	background-color: Gray;
+
+}
