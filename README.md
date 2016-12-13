@@ -15,6 +15,8 @@ Set and display buttons are now functional
 
 Project began as black and white matrix and evolved to utilize color.  You may still see remnants of the black-and-white paradigm in the code.
 
+Audio added to file to simulate the sound of plastic boxes clicking (like a keyboard).  Kind of annoying, need shorter softer sound.
+
 TO DO
 ```
 Create fill color button.
