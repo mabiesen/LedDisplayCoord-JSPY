@@ -7,10 +7,10 @@ DIRECTIONS
 ```
 Click a cell once to change to a color or black. White is the default starting color.
 Click and drag over cells to change to a color or black.
-Buttons to fill all cells black, fill all cells white.
+Buttons to fill all cells black, fill all cells white, fill all cells a certain color.
 Color buttons to change the working color.  
 Window on upper right side of the screen displays array of value-pair strings.  To modify later.
-Set and display buttons are now functional
+Set, display, and anim buttons are now operational.
 ```
 
 Project began as black and white matrix and evolved to utilize color.  You may still see remnants of the black-and-white paradigm in the code.
@@ -19,8 +19,7 @@ Audio added to file to simulate the sound of plastic boxes clicking (like a keyb
 
 TO DO
 ```
-Create fill color button.
-Create toggle for fill buttons that will determine if all cells are filled or only black cells. Potentially, create drop down and allow user to select the colored cells which will be changed. (i.e. select black cells and only black cells will be filled with the active color.
+Create toggle for fill buttons that will determine if all cells are filled or only black cells. Potentially, create drop down and allow user to select the colored cells which will be changed. (ex. select black cells and only black cells will be filled with the active color.)
 Add colors
 Change button color on click to alert user that click was successful.
 Create window to show active color, or potentially change the mouse color (I think this idea is neater).
