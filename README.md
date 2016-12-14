@@ -1,5 +1,7 @@
 # LedDisplayCoord-html
 Jquery and css to simulate 32x32 led display and provide coordinates for reuse.
+Python code to interpret output for led display.
+(Not yetstarted) Python code to implement the interpreted output in the adafruit 32x32 led display, using adafruit libraries.
 
 This project was created to take some of the guesswork out of led-display coding.  By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
 
