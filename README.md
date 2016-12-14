@@ -3,6 +3,9 @@ Jquery and css to simulate 32x32 led display and provide coordinates for reuse.
 
 This project was created to take some of the guesswork out of led-display coding.  By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
 
+BUG: When you click and drag to paint the table, sometimes you accidentally grab the screen(for lack of better terminology).
+When this happens the mouse gets stuck in 'mousedown' mode. To investigate solutions, potentially get rid of the table and instead populate div boxes.
+
 DIRECTIONS
 ```
 Click a cell once to change to a color or black. White is the default starting color.
