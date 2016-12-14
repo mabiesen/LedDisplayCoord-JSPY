@@ -6,7 +6,7 @@ Python code to interpret output for led display.
 This project was created to take some of the guesswork out of led-display coding.  By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
 
 BUG: When you click and drag to paint the table, sometimes you accidentally grab the screen(for lack of better terminology).
-When this happens the mouse gets stuck in 'mousedown' mode. To investigate solutions, potentially get rid of the table and instead populate div boxes.
+When this happens the mouse gets stuck in 'mousedown' mode until clicked. To investigate solutions, potentially get rid of the table and instead populate div boxes.
 
 BUG: Mentioned later in the readme, the verbatim code currently does not allow colors to overwrite other colors.
 With 90% certainty this was due to an array having duplicate spatial reference values, with only the first value being...
