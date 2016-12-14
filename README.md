@@ -6,6 +6,10 @@ This project was created to take some of the guesswork out of led-display coding
 BUG: When you click and drag to paint the table, sometimes you accidentally grab the screen(for lack of better terminology).
 When this happens the mouse gets stuck in 'mousedown' mode. To investigate solutions, potentially get rid of the table and instead populate div boxes.
 
+BUG: Mentioned later in the readme, the verbatim code currently does not allow colors to overwrite other colors.
+With 90% certainty this was due to an array having duplicate spatial reference values, with only the first value being...
+...pulled in using index.
+
 DIRECTIONS
 ```
 Click a cell once to change to a color or black. White is the default starting color.
