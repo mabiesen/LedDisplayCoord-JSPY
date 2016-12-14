@@ -19,9 +19,10 @@ Audio added to file to simulate the sound of plastic boxes clicking (like a keyb
 
 TO DO
 ```
+Animate verbatim has a bug which prevents one color from overwriting another, MOST LIKELY DRIVEN BY ARRAY ITERATION, using indexOf for color values.
 Create toggle for fill buttons that will determine if all cells are filled or only black cells. Potentially, create drop down and allow user to select the colored cells which will be changed. (ex. select black cells and only black cells will be filled with the active color.)
-Add colors
-Change button color on click to alert user that click was successful.
+Add colors, potentially sync color picker html to give users leeway with color selection
+Change button color on click to alert user that click was successful. Kind of did this with some buttons, but not effectively.
 Create window to show active color, or potentially change the mouse color (I think this idea is neater).
 ```
 
