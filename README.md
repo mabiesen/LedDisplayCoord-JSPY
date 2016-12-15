@@ -24,6 +24,7 @@ Set, display, and anim buttons are now operational.
 If values are desired for a personal led display using python, copy values from the value window and paste the values into a text file.
 Next, use the python script in this repository to convert the data to a readable form
 NOTE: The color conversion was intended to suit adafruits 32x32 led matrix display and associated libraries. Max 7 rgb.
+UPDATE: This is not true.  The python libraries accept 255 rgb.
 ```
 
 Project began as black and white matrix and evolved to utilize color.  You may still see remnants of the black-and-white paradigm in the code.
