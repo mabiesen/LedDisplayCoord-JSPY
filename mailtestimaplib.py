@@ -1,3 +1,6 @@
+
+#email functionality ripped from Ed Chapman at stackoverflow.com when IMAPClient refused to function properly
+#http://stackoverflow.com/questions/2230037/how-to-fetch-an-email-body-using-imaplib-in-python
 import datetime
 import email
 import imaplib
@@ -7,8 +10,8 @@ import time
 def themailfunction():
   file_name = ''
 
-  EMAIL_ACCOUNT = "upandcomming88@gmail.com"
-  PASSWORD = "TakeTwopw"
+  EMAIL_ACCOUNT = "upandcomming88@gmail.com"#your email
+  PASSWORD = "password"#this is your password to your email account
 
   mail = imaplib.IMAP4_SSL('imap.gmail.com')
   mail.login(EMAIL_ACCOUNT, PASSWORD)
@@ -39,7 +42,7 @@ def themailfunction():
       for part in email_message.walk():
           if part.get_content_type() == "text/plain":
               body = part.get_payload(decode=True)
-              file_name = "email_" + str(x) + ".txt"
+              file_name = "email_" + str(x) + ".txt"#for led project, this is treated as temp file
               output_file = open(file_name, 'w')
               output_file.write("From: %s\nTo: %s\nDate: %s\nSubject: %s\n\nBody: \n\n%s" %(email_from, email_to,local_message_date, subject, body.decode('utf-8')))
               output_file.close()
@@ -48,18 +51,19 @@ def themailfunction():
         
 
   #lines below are for the sake of the led project
+  #but it should be noted, if no filename was found below an error is reported, hence the blank variable declaration at top
   if(file_name != ''):
     stringiwant = ''
     f = open(file_name)
-    lines = f.readlines()
+    lines = f.readlines()#at this point lines is a list with unstructured nextlines. convert to string to reduce problems
     linesiwant = lines[7:]
     for item in linesiwant:
         stringiwant = stringiwant + item
 
     print(stringiwant)
-    writetime = str(time.time())
+    writetime = str(time.time())#this line makes each file unique through EPOC time
     fileandlocation = '/home/pi/PythonScripts/LEDMatrix/displays/'
-    fileandlocation = fileandlocation + writetime + 'new.txt'
+    fileandlocation = fileandlocation + writetime + 'new.txt'#This is the permanent file for our email data
     output_file = open(fileandlocation, 'w')
     output_file.write(stringiwant)
     output_file.close()
