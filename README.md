@@ -59,10 +59,9 @@ WHAT I INSTALLED(via terminal) PRIOR TO TEST:
    24  sudo apt-get install lame
    25  sudo apt-get install microcom
    26  sudo apt-get install arduino
-   27  sudo apt-get x11vnc
-   28  sudo apt-get install x11vnc
-   29  history > history_for_print.txt
-   30 sudo apt-get install fetchmail
+   27  sudo apt-get install x11vnc
+   28  history > history_for_print.txt
+   29 sudo apt-get install fetchmail
 ```
 
 Jquery and css to simulate 32x32 led display and provide coordinates for reuse.
