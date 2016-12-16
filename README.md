@@ -80,7 +80,7 @@ BUG: Mentioned later in the readme, the verbatim code currently does not allow c
 With 90% certainty this was due to an array having duplicate spatial reference values, with only the first value being...
 ...pulled in using index.
 
-DIRECTIONS
+HTML USER DIRECTIONS
 ```
 Click a cell once to change to a color or black. White is the default starting color.
 Click and drag over cells to change to a color or black.
