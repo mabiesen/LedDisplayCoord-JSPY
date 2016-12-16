@@ -88,6 +88,8 @@ Color buttons to change the working color.
 Window on upper right side of the screen displays array of value-pair strings.  To modify later.
 Set, display, and anim buttons are now operational.
 
+click start verbatim to record a series of movements, click stop to stop recording those movements.  It is recommended that you change the background before clicking animate so that you can see your animation take place.  Clear the animation to make a new one; otherwise, add on to the existing animation for greater complexity NOTE: at this time, unfortunately, one color cannot overwrite another color in verbatim(i.e. if i click start verbatim, turn a square green, then turn it red, the effect is not recorded; the original color is retained).
+
 If values are desired for a personal led display using python, copy values from the value window and paste the values into a text file.
 Next, use the python script in this repository to convert the data to a readable form
 NOTE: The color conversion was intended to suit adafruits 32x32 led matrix display and associated libraries. Max 7 rgb.
