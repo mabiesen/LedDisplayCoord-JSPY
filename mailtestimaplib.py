@@ -7,7 +7,7 @@ def themailfunction():
   file_name = ''
 
   EMAIL_ACCOUNT = "upandcomming88@gmail.com"
-  PASSWORD = "TakeTwopw"
+  PASSWORD = "password"
 
   mail = imaplib.IMAP4_SSL('imap.gmail.com')
   mail.login(EMAIL_ACCOUNT, PASSWORD)
