@@ -1,6 +1,7 @@
 # LedDisplayCoord-jspy
 
-FUNCTION: This Repository aims to provide a way for the user to obtain and display coordinates for a 32x32 rgb led matrix from adafruit.
+FUNCTION: This Repository aims to provide a way for the user to obtain and display coordinates for a 32x32 rgb led matrix from adafruit.By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
+
 Coordinates are obtained through a website (which utilizes the css, html, js, audio, and picture files). The website allows users to experiment with led colors in real-time.
 Python will retrieve coordinates and log inside a specific folder 'displays' located one step below the working directory.  Python will cycle through all files in this folder, interpret the data and display on the led screen.
 
@@ -70,8 +71,6 @@ Jquery, HTML and css to simulate 32x32 led display and provide coordinates for r
 Python code to grab information from email folder at regular intervals.
 Python code to interpret output for led display.
 Python code to implement the interpreted output in the adafruit 32x32 led display, using adafruit libraries.
-
-This project was created to take some of the guesswork out of led-display coding.  By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
 
 BUG: When you click and drag to paint the table, sometimes you accidentally grab the screen(for lack of better terminology).
 When this happens the mouse gets stuck in 'mousedown' mode until clicked. To investigate solutions, potentially get rid of the table and instead populate div boxes.
