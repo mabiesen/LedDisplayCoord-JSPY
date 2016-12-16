@@ -1,4 +1,64 @@
-# LedDisplayCoord-html
+# LedDisplayCoord-jspy
+
+FUNCTION: This Repository aims to provide a way for the user to obtain and display coordinates for a 32x32 rgb led matrix from adafruit.
+Coordinates are obtained through a website (which utilizes the css, html, js, audio, and picture files). The website allows users to experiment with led colors in real-time.
+Python will retrieve coordinates and log inside a specific folder 'displays' located one step below the working directory.  Python will cycle through all files in this folder, interpret the data and display on the led screen.
+
+HARDWARE REQUIREMENTS:  
+```
+Raspberry pi with necessities(powercord, display cable, mouse/keyboard, GPIO pins required, Raspbian OS), all necessary equipment for led display (pi hat, led display, 5v 4a power supply, potentially-soldering equipment), monitor, and LAPTOP COMPUTER BECAUSE THE PI CANNOT HANDLE THE WEBSITE AT THIS TIME, and mobile devices will not have strong functionality with the website.
+```
+
+SOFTWARE REQUIREMENTS: Tested on Rasbian OS obtained from NOOBS v. 2.1.0.  Requires the following:
+```
+FOR PYTHON WORK-------------------------
+Below are the installs that are truly required, but for that sake of project comprehension I am also providing a list of all software I installed prior to testing. It is unlikely that my installs impacted operations.
+
+TRULY REQUIRED OS:
+  -Raspbian
+
+TRULY REQUIRED PYTHON LIBRARIES:
+  -datetime (pre-intsalled with NOOBS)
+  -email  (pre-intsalled with NOOBS)
+  -imaplib  (pre-intsalled with NOOBS????)
+  -mailbox  (pre-intsalled with NOOBS)
+  -time  (pre-intsalled with NOOBS)
+  -OS  (pre-intsalled with NOOBS)
+  -rgbmatrix(from adafruit). Install via git.
+  
+WHAT I INSTALLED(via terminal) PRIOR TO TEST:
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install python-dev
+    4  sudo apt-get install libjpeg-dev
+    5  sudo apt-get install libfreetype6-dev
+    6  sudo apt-get install python-setuptools
+    7  sudo apt-get install python-pip
+    8  sudo easy_install -U distribute
+    9  sudo pip install RPi.GPIO
+   10  sudo pip install pySerial
+   11  sudo pip install nose
+   12  sudo pip install cmd2
+   13  sudo apt-get install python-matplotlib
+   14  sudo apt-get install python-mpltoolkits.basemap
+   15  sudo apt-get install python-numpy
+   16  sudo apt-get install python-scipy
+   17  sudo apt-get install python-pandas
+   18  sudo apt-get install python-qt4
+   19  sudo apt-get install git
+   20  sudo apt-get install sendemail
+   21  sudo apt-get install sshfs
+   22  sudo apt-get install alsa-utils
+   23  sudo apt-get install mpg321
+   24  sudo apt-get install lame
+   25  sudo apt-get install microcom
+   26  sudo apt-get install arduino
+   27  sudo apt-get x11vnc
+   28  sudo apt-get install x11vnc
+   29  history > history_for_print.txt
+   30 sudo apt-get install fetchmail
+```
+
 Jquery and css to simulate 32x32 led display and provide coordinates for reuse.
 Python code to grab information from email folder at regular intervals.
 Python code to interpret output for led display.
