@@ -6,7 +6,10 @@ Python will retrieve coordinates and log inside a specific folder 'displays' loc
 
 HARDWARE REQUIREMENTS:  
 ```
-Raspberry pi with necessities(powercord, display cable, mouse/keyboard, GPIO pins required, Raspbian OS), all necessary equipment for led display (pi hat, led display, 5v 4a power supply, potentially-soldering equipment), monitor, and LAPTOP COMPUTER BECAUSE THE PI CANNOT HANDLE THE WEBSITE AT THIS TIME, and mobile devices will not have strong functionality with the website.
+Raspberry pi with necessities(powercord, display cable, mouse/keyboard, GPIO pins required, Raspbian OS), 
+all necessary equipment for led display (pi hat, led display, 5v 4a power supply, potentially-soldering equipment), 
+monitor, and LAPTOP COMPUTER BECAUSE THE PI CANNOT HANDLE THE WEBSITE AT THIS TIME, 
+and mobile devices will not have strong functionality with the website.
 ```
 
 SOFTWARE REQUIREMENTS: Tested on Rasbian OS obtained from NOOBS v. 2.1.0.  Requires the following:
