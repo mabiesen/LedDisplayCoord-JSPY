@@ -17,6 +17,9 @@ SOFTWARE REQUIREMENTS: Tested on Rasbian OS obtained from NOOBS v. 2.1.0.  Requi
 FOR PYTHON WORK-------------------------
 Below are the installs that are truly required, but for that sake of project comprehension I am also providing a list of all software I installed prior to testing. It is unlikely that my installs impacted operations.
 
+DESIRED(maybe required) EMAIL PROVIDER:
+  -GMAIL
+
 TRULY REQUIRED OS:
   -Raspbian
 
