@@ -66,7 +66,7 @@ WHAT I INSTALLED(via terminal) PRIOR TO TEST:
    29 sudo apt-get install fetchmail
 ```
 
-Jquery and css to simulate 32x32 led display and provide coordinates for reuse.
+Jquery, HTML and css to simulate 32x32 led display and provide coordinates for reuse.
 Python code to grab information from email folder at regular intervals.
 Python code to interpret output for led display.
 Python code to implement the interpreted output in the adafruit 32x32 led display, using adafruit libraries.
