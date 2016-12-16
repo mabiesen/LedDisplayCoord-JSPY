@@ -72,7 +72,9 @@ DIRECTIONS FOR SETUP.
 1. In github, click the green button at the top right hand side of the screen that says 'clone'.
 2. Select the option download zip.
 3. Extract the zip files to a folder of your choosing.
-NOTE: Because the raspberry pi does not support the website at this time, you will need to perform these three steps on both a personal laptop AND your raspberry pi in order to get full functionality.  Install only on your personal laptop if you only desire the website
+NOTE: Because the raspberry pi does not support the website at this time, you will need to 
+perform these three steps on both a personal laptop AND your raspberry pi in order to get full 
+functionality.  Install only on your personal laptop if you only desire the website
 ```
 WEBSITE
 ```
