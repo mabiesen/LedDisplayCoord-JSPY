@@ -66,6 +66,29 @@ WHAT I INSTALLED(via terminal) PRIOR TO TEST:
    28  history > history_for_print.txt
    29 sudo apt-get install fetchmail
 ```
+DIRECTIONS FOR SETUP.
+
+```
+1. In github, click the green button at the top right hand side of the screen that says 'clone'.
+2. Select the option download zip.
+3. Extract the zip files to a folder of your choosing.
+NOTE: Because the raspberry pi does not support the website at this time, you will need to perform these three steps on both a personal laptop AND your raspberry pi in order to get full functionality.  Install only on your personal laptop if you only desire the website
+```
+WEBSITE
+```
+1.  Double Click the HTML file, you're IN!!! See below for basic use.
+```
+RETRIEVE/DISPLAY INFO THROUGH PI
+```
+PREREQUISITES
+See above and insure that all prerequisite software and hardware is obtained.  Installation of software is most often
+the source of error.
+
+BASIC SETUP
+1.  You need to create a child folder to the folder containing your python files.  This folder should be called 'displays': it will contain all of your coordinates for display on the LED screen.
+2.  Go into the 'emailtestimaplib' file and alter it to suit your email account, password, and email folder.  Mine is called "LEDCOORD".  I opted to create a gmail filter to organize all emails containing LED coordinates, I would advise you to do the same.  At this time, if an email is obtained and the body has something other than the coordinates in the format provided by the website the file will err.
+3. Verify that both files contain folder references to your folders and not mine! any time you see many slashes (/../../) you can be fairly certain you are seeing a filepath.
+```
 
 Jquery, HTML and css to simulate 32x32 led display and provide coordinates for reuse.
 Python code to grab information from email folder at regular intervals.
