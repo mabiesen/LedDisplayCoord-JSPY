@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	var alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEF'; //table row will be letter
 	var $foot = $('.footer');
-	var $foruse = $('.boxone');
-	var $boxtwo = $('.boxtwo');
+	var $foruse = $('#boxone');
+	var $boxtwo = $('#boxtwo');
 	var $fillwhite = $('#fillwhite');
 	var $fillblack = $('#fillblack');
 	var $fillcolor = $('#fillcolor');

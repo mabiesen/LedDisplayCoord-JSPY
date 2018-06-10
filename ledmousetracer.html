@@ -7,10 +7,10 @@
 		</head>
 		<body>
 			<div class='holdseverything'>
-				<div class='title'><div class='ul'>LED Matrix Assistance</div></div>
+				<div class='title'><div class='hr'>LED Matrix Assistance</div></div>
 				<div class='maincontainer'>
-					<div class="boxone"></div></br>
-					<div class="boxfour">
+					<div id="boxone"></div></br>
+					<div id="boxfour">
 							<div class='black acolor'></div>
 							<div class='green acolor'></div>
 							<div class='pink acolor'></div>
@@ -21,36 +21,38 @@
 							<div class='yellow acolor'></div>	
 							<div class='white acolor'></div>								
 					</div>
-                                        <div class="boxthree">
-                                                        <button id='fillwhite' class='mybutton'>Fill White</button>
-                                                        <button id='fillblack' class='mybutton'>Fill Black</button>
-                                                        <button id='fillcolor' class='mybutton'>Fill Color</button>
+                                        <div id="boxthree">
+                                                        <button id='fillwhite' >Fill White</button>
+                                                        <button id='fillblack' >Fill Black</button>
+                                                        <button id='fillcolor' >Fill Color</button>
                                         </div>
 
-					<div class='boxfive'>
-						<div class='record1'>
-							<button class='display myrecord'>Display 1</button>
-							<button class ='set myrecord'>Set 1</button>
-							<button class='anim myrecord'>Anim 1</button>
-						</div>
-						<div class='record2'>
-							<button class='display myrecord'>Display 2</button>
-							<button class ='set myrecord'>Set 2</button>
-							<button class='anim myrecord'>Anim 2</button>
-						</div>
-						<div class='record3'>
-							<button class='display myrecord'>Display 3</button>
-							<button class ='set myrecord'>Set 3</button>
-							<button class='anim myrecord'>Anim 3</button>
-						</div>
+					<div id='boxfive'>
+						<table>
+							<tr class='record1'>
+								<td><button class='display myrecord'>Display 1</button></td>
+								<td><button class ='set myrecord'>Set 1</button></td>
+								<td><button class='anim myrecord'>Anim 1</button></td>
+							</tr>
+							<tr class='record2'>
+								<td><button class='display myrecord'>Display 2</button></td>
+								<td><button class ='set myrecord'>Set 2</button></td>
+								<td><button class='anim myrecord'>Anim 2</button></td>
+							</tr>
+							<tr class='record3'>
+								<td><button class='display myrecord'>Display 3</button></td>
+								<td><button class ='set myrecord'>Set 3</button></td>
+								<td><button class='anim myrecord'>Anim 3</button></td>
+							</tr>
+						</table>
 					</div>
-					<div class="boxsix">
+					<div id="boxsix">
 						<button class='startverbatim verbatim'>Start</br> Record</button>
 						<button class='stopverbatim verbatim'>Stop</br> Record</button>
 						<button class='animateverbatim verbatim'>Anim.</br> Verbatim</button>
 						<button class='clearverbatim verbatim'>Clear</br> Verbatim</button>
 					</div>
-					<div class='boxtwo'></div>
+					<div id='boxtwo'></div>
 			</div>
 		<script src='ledmousetracer.js' ></script>			
 		</body>

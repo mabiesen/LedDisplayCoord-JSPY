@@ -1,7 +1,30 @@
+html{
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+}
+
 body{
 	width: 100vw;
 	background-color: LightBlue;
 	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+button{
+	font-size: 1em;
+	line-height: 1em;
+	width: 100%;
+}
+
+table{
+	width: 100%;
+	border: none;
+}
+
+tr{
+	border: none;
 }
 
 .title{
@@ -10,7 +33,7 @@ body{
 	margin-bottom: 0.2em;
 }
 
-.ul{
+.hr{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -28,10 +51,10 @@ body{
 	width: 90%;
 	margin: auto;
 	overflow: auto;
-	max-width: 990px;
+	max-width: 1020px;
 }
 
-.boxone{
+#boxone{
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -45,11 +68,11 @@ body{
 	border-color: black;
 }
 
-.boxtwo{
+#boxtwo{
         box-sizing: border-box;
         float: left;
         height: 15em;
-	width: 17em;
+	width: 20em;
         background-color: white;
         margin-top: 1em;
         margin-right: 1em;
@@ -65,9 +88,13 @@ body{
 
 
 
-.boxthree{
+#boxthree,
+#boxfour,
+#boxfive,
+#boxsix{
+	box-sizing: border-box;
 	float: left;
-	width: 17em;
+	width: 20em;
 	overflow: auto;
 	background-color: white;
 	margin-top: 1em;
@@ -77,41 +104,6 @@ body{
 	border-color: black;
 }
 
-.boxfour{
-	float: left;
-	width: 17em;
-	overflow: auto;
-	background-color: white;
-	margin-top: 1em;
-	margin-right: 1em;
-	border-style: solid;
-	border-width: 0.1em;
-	border-color: black;
-}
-
-.boxfive{
-	float: left;
-	width: 17em;
-	overflow: auto;
-	background-color: white;
-	margin-top: 1em;
-	margin-right: 1em;
-	border-style: solid;
-	border-width: 0.1em;
-	border-color: black;
-}
-
-.boxsix{
-	float: left;
-	width: 17em;
-	overflow: auto;
-	background-color: white;
-	margin-top: 1em;
-	margin-right: 1em;
-	border-style: solid;
-	border-width: 0.1em;
-	border-color: black;
-}
 
 .startverbatim,
 .stopverbatim,
@@ -147,7 +139,6 @@ body{
 	float: left;
 	height: 1.4em;
 	width: 45%;
-	font-size: 1.5em;
 	margin: 0.1em;
 }
 
@@ -213,10 +204,14 @@ body{
 	background-color: rgb(255, 255, 255);
 }
 
-@media(max-width: 550px){
+@media(max-width: 753px){
 	body{
 		margin-left: none;
 		margin-right: none;
+	}
+	
+	.hr{
+		border: none;
 	}
 	.maincontainer{
 		width: 100vw;
@@ -225,20 +220,23 @@ body{
 		border: none;
 		padding: 0;	
 	}
-	.boxone{
-		width: 320px;
+	
+	#boxone{
+		margin-bottom: 0;
 	}
 
-	.boxone,
-	.boxtwo,
-	.boxthree,
-	.boxfour,
-	.boxfive,
-	.boxsix{
+	#boxone,
+	#boxtwo,
+	#boxthree,
+	#boxfour,
+	#boxfive,
+	#boxsix{
 		margin-left: auto;
 		margin-right: auto;
 		float: none;
+		width: 320px;
 	}
+
 	.ledbox{
 		width: 10px;
 		height: 10px;
