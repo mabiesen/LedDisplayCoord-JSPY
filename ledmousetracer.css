@@ -204,6 +204,12 @@ tr{
 	background-color: rgb(255, 255, 255);
 }
 
+@media(max-width:1124px){
+	.maincontainer{
+		max-width: 677px;
+	}
+}
+
 @media(max-width: 753px){
 	body{
 		margin-left: none;
