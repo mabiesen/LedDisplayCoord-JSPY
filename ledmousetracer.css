@@ -118,12 +118,10 @@ body{
 .animateverbatim,
 .clearverbatim{
 	font-size:1em;
+	line-height: 1;
 	margin: 0.1em;	
 	padding: 0.1em;
 	float: left;
-	/*border-style: solid;
-	border-width: 0.1em;
-	border-color: black; Took these out as they interfere with button functionality*/
 	height: 2.5em;
 	width: 7.5em;
 }
@@ -133,9 +131,6 @@ body{
 	margin: 0.1em;	
 	padding: 0.1em;
 	float: left;
-	/*border-style: solid;
-	border-width: 0.1em;
-	border-color: black; interferes with natural button functionality*/
 	height: 1.5em;
 	width: 6em;
 }
@@ -146,7 +141,6 @@ body{
 
 #fillwhite,
 #fillblack,
-#squaretool,
 #fillcolor{
 	text-align: center;
 	padding: 0.1em;
@@ -155,9 +149,6 @@ body{
 	width: 45%;
 	font-size: 1.5em;
 	margin: 0.1em;
-	/*border-style: solid;
-	border-width: 0.1em;
-	border-color: black;	Took these out at they interfered with natural button color toggles*/
 }
 
 
@@ -225,13 +216,21 @@ body{
 	background-color: rgb(255, 255, 255);
 }
 
-
-.footer{
-	border-style: solid;
-	border-color: black;
-	border-width: 0.1em;
-	height: 6em;
-	margin-top: 0.9em;
-	background-color: Gray;
+@media(max-width: 550px){
+	body{
+		margin-left: none;
+		margin-right: none;
+	}
+	.maincontainer{
+		width: 100%;
+	}
+	.boxone{
+		width: 320px;
+		float: center;
+	}
+	.ledbox{
+		width: 10px;
+		height: 10px;
+	}
 
 }
