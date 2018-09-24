@@ -31,12 +31,12 @@ TRULY REQUIRED OS:
   -Raspbian
 
 TRULY REQUIRED PYTHON LIBRARIES:
-  -datetime (pre-intsalled with NOOBS)
-  -email  (pre-intsalled with NOOBS)
-  -imaplib  (pre-intsalled with NOOBS????)
-  -mailbox  (pre-intsalled with NOOBS)
-  -time  (pre-intsalled with NOOBS)
-  -OS  (pre-intsalled with NOOBS)
+  -datetime (stdlib)
+  -email  (stdlib)
+  -imaplib  
+  -mailbox  (stdlib)
+  -time  (stdlib)
+  -OS  (stdlib)
   -rgbmatrix(from adafruit). Install via git.
   
 WHAT I INSTALLED(via terminal) PRIOR TO TEST:
