@@ -1,5 +1,7 @@
 # LedDisplayCoord-jspy
 
+NOTE:  This is one of the first projects I ever created!!! 
+
 UPDATE: Fixed button functionality.  The scripts now use html designated html buttons that react appropriately to user interaction.
 
 FUNCTION: This Repository aims to provide a way for the user to obtain and display coordinates for a 32x32 rgb led matrix from adafruit. By having an interactive screen, the user can see what they are designing and arrive at a polished product faster.
