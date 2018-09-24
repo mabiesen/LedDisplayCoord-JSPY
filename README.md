@@ -1,6 +1,6 @@
 # LedDisplayCoord-jspy
 
-NOTE:  This is one of the first projects I ever created!!! 
+NOTE:  This is one of the first projects I ever created!!! Began Jan 1 2017.
 
 UPDATE: Fixed button functionality.  The scripts now use html designated html buttons that react appropriately to user interaction.
 
